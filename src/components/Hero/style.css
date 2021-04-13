@@ -1,0 +1,48 @@
+.hero {
+  height: 800px;
+  background-size: cover;
+  position: relative;
+  margin-top: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+
+
+ 
+}
+
+.hero::after {
+  content: "";
+  display: block;
+  opacity: .4;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: black;
+}
+
+.hero * {
+  position: relative;
+  z-index: 2;
+}
+
+.hero h1, .hero h2 {
+  color: rgba(209, 207, 207, 0.959);
+}
+
+.hero h1 {
+  font-size: 50px;
+  padding-top: 140px;
+  margin-top: 0;
+  font-family: 'New Tegomin', serif;
+}
+
+.hero p{
+  line-height: 2em;
+  font-size: 30px;
+ font:rgb(20, 131, 228);
+ font-family: 'New Tegomin', serif;
+ 
+}
+

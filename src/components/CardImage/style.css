@@ -1,0 +1,19 @@
+   
+    #paragraph{
+        font-family: 'New Tegomin', serif;
+        
+       } 
+     .Pic {
+        max-width: 400%;
+        max-height: 400px;
+        padding:10px
+        border 1vh solid;
+        border-radius: 50%;
+      }
+    
+      
+      @media(max-width: 468px) {
+        .Pic {
+          width: 10rem;
+        }
+      }
