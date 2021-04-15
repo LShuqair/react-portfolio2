@@ -3,6 +3,7 @@
     "version": "0.1.0",
     "private": true,
     "dependencies": {
+        "@fortawesome/fontawesome-svg-core": "^1.2.35",
         "axios": "^0.21.1",
         "bootstrap": "^4.6.0",
         "install": "^0.13.0",

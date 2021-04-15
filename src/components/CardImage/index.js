@@ -13,7 +13,7 @@ function CardImage(props) {
             </div>
         </div>
         <div className="col-lg-6 col-xm-12" id="paragraph">
-        <h1 className="about-heading">Hey! I'm Luna.</h1>
+        <h1 className="about-heading">Hey! I'm Luna</h1>
             <p>
             I got my Associate Degree in Information Technology last June. 
               I got accepted at George Washington University to finish my Bachelor’s Degree, but I decided to join the GW Bootcamp instead. I am currently a GW Bootcamp student. 
@@ -21,7 +21,7 @@ function CardImage(props) {
                 I bring passion and enthusiasm to everything I do and have an insatiable thirst for knowledge in this area. 
                 I persist to achieve and seek my goals.
             </p>
-            <p>Connect with me on <a href="https://github.com/LShuqair">GitHub</a> and <a href="https://www.linkedin.com/in/luna-shuqair-7739b41ba/">LinkedIn</a>.</p>
+            <p>Connect with me on <a href="https://github.com/LShuqair">GitHub</a> and <a href="https://www.linkedin.com/in/luna-shuqair-7739b41ba/">LinkedIn</a></p>
         </div>
         </div>
     </div>
