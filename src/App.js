@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 import Wrapper from "./components/Wrapper";
 import Typical from "react-typical";
 import Portforlio from "./pages/Portfolio";
-import Popup from "./components/Popup";
+
 
 
 
