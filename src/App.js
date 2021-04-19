@@ -1,10 +1,9 @@
 import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import Me from "./pages/Me";
 import About from "./pages/About";
 import Resume from "./pages/Resume";
 import Navbar from "./components/Navbar";
-
 import Wrapper from "./components/Wrapper";
 import Typical from "react-typical";
 import Portforlio from "./pages/Portfolio";
