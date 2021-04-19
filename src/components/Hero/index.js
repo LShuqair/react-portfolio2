@@ -7,12 +7,13 @@ function Hero(props) {
     <div className="hero text-center" style={{ backgroundImage: `url(${props.backgroundImage})` }}>
       {props.children}
 
-      <p>
-          I'm a {''} 
+      <p id="p">
+         I'm a {''} 
           <Typical
           loop={50}
           wrapper="b"
-          steps={['developer',2000,'designer',2000,'programmer',2000]}
+          steps={['Full Stack Developer',2000, 'Front-end Developer',2000, 'Back-end Developer',2000,
+          ]}
           
           
           />

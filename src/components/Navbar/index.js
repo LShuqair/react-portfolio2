@@ -6,9 +6,9 @@ import "./style.css";
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-       <div className="navbar-brand">
-       <Link  to="/" 
-              className={
+       <div className="navbar-brand" >
+       <Link id="link" to="/" 
+              className ={
                 window.location.pathname === "/" || window.location.pathname === "/me"
                   ? "nav-link active"
                   : "nav-link"

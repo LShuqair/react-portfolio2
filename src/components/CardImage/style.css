@@ -10,7 +10,10 @@
         border 1vh solid;
         border-radius: 50%;
       }
+      #social{
+        max-width: 7%;
     
+      }
       
       @media(max-width: 468px) {
         .Pic {

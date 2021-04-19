@@ -1,9 +1,10 @@
 import React from "react";
 import burger from "../../images/burger.png";
-import dev from "../../images/dev.png";
+import budget from "../../images/budget.png";
 import note from "../../images/note.png";
 import travel from "../../images/travel.png";
-import quiz from "../../images/quiz.png";
+import weather from "../../images/weather.png";
+import fitness from "../../images/fitness.png"
 import "./style.css";
 
 
@@ -14,7 +15,7 @@ const Portfolio = () => {
     const openPopupboxBurger = () => {
         const content = (
         <>
-        <img className="image-popupbox" src = {burger} alt="Burger App" width="200px" />
+        <img className="image-popupbox" src = {burger} alt="Burger App"  />
         <p>It is a burger logger application that uses MySQL, Node, Express and Handlebars to generate the HTML. It follows the MVC design pattern as well.</p>
         <a className="hyper-link" onClick={() => window.open("https://github.com/LShuqair/burger", "_blank")} >GitHub</a>
                 <br></br>
@@ -39,29 +40,57 @@ const Portfolio = () => {
         fadeInSpeed: 500,
     
     };
-    const openPopupboxDev = () => {
+    const openPopupboxBudget = () => {
         const content = (
         <>
-        <img className="image-popupbox" src = {dev} alt="Dev App" width="200px" />
-        <p>It is a burger logger application that uses MySQL, Node, Express and Handlebars to generate the HTML. It follows the MVC design pattern as well.</p>
-        <a className="hyper-link" onClick={() => window.open("https://github.com/LShuqair/groupproject1", "_blank")} >GitHub</a>
+        <img className="image-popupbox" src = {budget} alt="Budget App"  />
+        <p>An application that allows users to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online, using(PWA).</p>
+        <a className="hyper-link" onClick={() => window.open("https://github.com/LShuqair/budget-trackers", "_blank")} >GitHub</a>
                 <br></br>
-                <a a className="hyper-link" onClick={() => window.open("https://nataliasozontova.github.io/group_project/", "_blank")}
+                <a a className="hyper-link" onClick={() => window.open("https://obscure-basin-36143.herokuapp.com/", "_blank")}
                >Deployed</a>
         </>
     )
     PopupboxManager.open({ content });
     PopupboxManager.update({  content, config: {
-                          titleBar: {  text: "Dev App"  }
+                          titleBar: {  text: "Budget App"  }
           },
     });
         
     };
     
-    const popupboxConfigDev = {
+    const popupboxConfigBudget = {
         titleBar: {
             enable: true,
-            text: "Dev App"
+            text: "Budget App"
+        },
+        fadeIn: true,
+        fadeInSpeed: 500,
+    
+    };
+    const openPopupboxFitness = () => {
+        const content = (
+        <>
+        <img className="image-popupbox" src = {fitness} alt="Fitness App"  />
+        <p>An application that allows users to view, create and track daily workouts. Also, it allows them to log multiple exercises in a workout on a given day and be able to track the name, type, weight, sets, reps, and duration of the exercise. They will be able to visualize their progress through graphs as well.</p>
+        <a className="hyper-link" onClick={() => window.open("https://github.com/LShuqair/workout-tracker1", "_blank")} >GitHub</a>
+                <br></br>
+                <a a className="hyper-link" onClick={() => window.open("https://shielded-stream-87737.herokuapp.com/?id=6055fa93b1043500158d8cf5", "_blank")}
+               >Deployed</a>
+        </>
+    )
+    PopupboxManager.open({ content });
+    PopupboxManager.update({  content, config: {
+                          titleBar: {  text: "Fitness App"  }
+          },
+    });
+        
+    };
+    
+    const popupboxConfigFitness = {
+        titleBar: {
+            enable: true,
+            text: "Fitness App"
         },
         fadeIn: true,
         fadeInSpeed: 500,
@@ -71,11 +100,11 @@ const Portfolio = () => {
     const openPopupboxNote = () => {
         const content = (
         <>
-        <img className="image-popupbox" src = {note} alt="Note App" width="200px" />
-        <p>It is a burger logger application that uses MySQL, Node, Express and Handlebars to generate the HTML. It follows the MVC design pattern as well.</p>
-        <a className="hyper-link" onClick={() => window.open("https://github.com/LShuqair/burger", "_blank")} >GitHub</a>
+        <img className="image-popupbox" src = {note} alt="Note App"  />
+        <p>This application will help you create, save a Note and update it later.</p>
+        <a className="hyper-link" onClick={() => window.open("https://github.com/LShuqair/note-taker", "_blank")} >GitHub</a>
                 <br></br>
-                <a a className="hyper-link" onClick={() => window.open("https://dry-thicket-48234.herokuapp.com/", "_blank")}
+                <a a className="hyper-link" onClick={() => window.open("https://radiant-wave-81508.herokuapp.com/", "_blank")}
                >Deployed</a>
         </>
     )
@@ -100,11 +129,11 @@ const Portfolio = () => {
     const openPopupboxTravel = () => {
         const content = (
         <>
-        <img className="image-popupbox" src = {travel} alt="Travel App" width="200px" />
-        <p>It is a burger logger application that uses MySQL, Node, Express and Handlebars to generate the HTML. It follows the MVC design pattern as well.</p>
-        <a className="hyper-link" onClick={() => window.open("https://github.com/LShuqair/burger", "_blank")} >GitHub</a>
+        <img className="image-popupbox" src = {travel} alt="Travel App"  />
+        <p>This Application can be used in any browser available. The purpose of this application is to provide tourists help in guidance finding deliciouse foods, location of restourants,current weather and 5 days weather foreacst.</p>
+        <a className="hyper-link" onClick={() => window.open("https://github.com/LShuqair/groupproject1", "_blank")} >GitHub</a>
                 <br></br>
-                <a a className="hyper-link" onClick={() => window.open("https://dry-thicket-48234.herokuapp.com/", "_blank")}
+                <a a className="hyper-link" onClick={() => window.open("https://nataliasozontova.github.io/group_project//", "_blank")}
                >Deployed</a>
         </>
     )
@@ -126,29 +155,29 @@ const Portfolio = () => {
     
     };
 
-    const openPopupboxQuiz = () => {
+    const openPopupboxWeather = () => {
         const content = (
         <>
-        <img className="image-popupbox" src = {quiz} alt="Quiz App" width="200px" />
-        <p>It is a burger logger application that uses MySQL, Node, Express and Handlebars to generate the HTML. It follows the MVC design pattern as well.</p>
-        <a className="hyper-link" onClick={() => window.open("https://github.com/LShuqair/burger", "_blank")} >GitHub</a>
+        <img className="image-popupbox" src = {weather} alt="Weather App"  />
+        <p>Building a weather dashboard applcation that retrieve weather data for cities and retrieve 5 day's forcast data as well.</p>
+        <a className="hyper-link" onClick={() => window.open("https://github.com/LShuqair/Weather-Dashboard-API", "_blank")} >GitHub</a>
                 <br></br>
-                <a a className="hyper-link" onClick={() => window.open("https://dry-thicket-48234.herokuapp.com/", "_blank")}
+                <a a className="hyper-link" onClick={() => window.open("https://lshuqair.github.io/Weather-Dashboard-API/","_blank")}
                >Deployed</a>
         </>
     )
     PopupboxManager.open({ content });
     PopupboxManager.update({  content, config: {
-                          titleBar: {  text: "Quiz App"  }
+                          titleBar: {  text: "Weather App"  }
           },
     });
         
     };
     
-    const popupboxConfigQuiz = {
+    const popupboxConfigWeather = {
         titleBar: {
             enable: true,
-            text: "Quiz App"
+            text: "Weather App"
         },
         fadeIn: true,
         fadeInSpeed: 500,
@@ -165,27 +194,37 @@ const Portfolio = () => {
                     <div className="overflow"></div>
                     
                 </div>
-                <div className="image-box" onClick={openPopupboxDev}>
-                    <img className="image" src={dev} alt="Dev App" />
+                <div className="image-box" onClick={openPopupboxBudget}>
+                    <img className="image" src={budget} alt="Budget App" />
+                    <div className="overflow"></div>
+              
+                    
+                </div>
+
+                <div className="image-box" onClick={openPopupboxFitness}>
+                    <img className="image" src={fitness} alt="Fitness App" />
                     <div className="overflow"></div>
               
                     
                 </div>
 
                 <div className="image-box" onClick={openPopupboxNote}>
-                    <img className="image" src={note} alt="Dev App" />
+                    <img className="image" src={note} alt="Note App" />
                     <div className="overflow"></div>
               
                     
                 </div>
                 <div className="image-box" onClick={openPopupboxTravel}>
-                    <img className="image" src={travel} alt="Dev App" />
+                    <img className="image" src={travel} alt="Travel App" />
                     <div className="overflow"></div>
               
                     
                 </div>
-                <div className="image-box" onClick={openPopupboxQuiz}>
-                    <img className="image" src={quiz} alt="Dev App" />
+
+        
+
+                <div className="image-box" onClick={openPopupboxWeather}>
+                    <img className="image" src={weather} alt="Weather App" />
                     <div className="overflow"></div>
               
                     
@@ -195,10 +234,11 @@ const Portfolio = () => {
 
         </div>
         <PopupboxContainer {...popupboxConfigBurger}/>
-        <PopupboxContainer {...popupboxConfigDev}/>
+        <PopupboxContainer {...popupboxConfigFitness}/>
+        <PopupboxContainer {...popupboxConfigBudget}/>
         <PopupboxContainer {...popupboxConfigNote}/>
         <PopupboxContainer {...popupboxConfigTravel}/>
-        <PopupboxContainer {...popupboxConfigQuiz}/>
+        <PopupboxContainer {...popupboxConfigWeather}/>
        
         </div>
     )

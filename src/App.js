@@ -4,7 +4,7 @@ import Me from "./pages/Me";
 import About from "./pages/About";
 import Resume from "./pages/Resume";
 import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
+
 import Wrapper from "./components/Wrapper";
 import Typical from "react-typical";
 import Portforlio from "./pages/Portfolio";
@@ -25,7 +25,7 @@ function App() {
           <Route exact path="/portforlio" component={Portforlio} />
           <Route exact path="/resume" component={Resume} />
         </Wrapper>
-        
+       
       </div>
     </Router>
   );

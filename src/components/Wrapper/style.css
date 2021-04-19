@@ -1,4 +1,6 @@
-.wrapper {
+.w-wrapper {
   min-height: 100%;
-  padding-bottom: 100px;
+  padding-bottom: 120px;
+  /* padding: 6rem; */
+  background-color: rgb(231, 229, 229);
 }

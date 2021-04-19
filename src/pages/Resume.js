@@ -1,13 +1,22 @@
-import React, { Component } from "react";
+import React from "react";
 
-  
-function Resume() {
+import ResumeP from "../components/ResumeP";
+
+
+
+
+function Resume ()  {
+
   return (
     <div>
-     RESUME
-      
+    
+      <ResumeP/>
+   
+     
+ 
     </div>
-  )
+  );
 }
+  
 
 export default Resume;

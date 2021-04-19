@@ -4,10 +4,6 @@ import Project from "../Project";
 import image1 from "../../images/image1-169x192.png";
 import luna from "../../images/luna.png";
 
-
-
-
-
 import "./style.css";
 
 

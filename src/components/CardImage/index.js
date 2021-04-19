@@ -1,5 +1,7 @@
 import React from "react";
 import luna from "../../images/luna.png";
+import github from "../../images/github.png";
+import linkedin2 from "../../images/linkedin2.png"
 import "./style.css";
 
 function CardImage(props) { 
@@ -21,7 +23,8 @@ function CardImage(props) {
                 I bring passion and enthusiasm to everything I do and have an insatiable thirst for knowledge in this area. 
                 I persist to achieve and seek my goals.
             </p>
-            <p>Connect with me on <a href="https://github.com/LShuqair">GitHub</a> and <a href="https://www.linkedin.com/in/luna-shuqair-7739b41ba/">LinkedIn</a></p>
+            <p>Connect with me on <a href="https://github.com/LShuqair"><img id="social"src={github}></img></a> and  <a href="https://www.linkedin.com/in/luna-shuqair-7739b41ba/"><img id="social"src={linkedin2}></img></a></p>
+        
         </div>
         </div>
     </div>
