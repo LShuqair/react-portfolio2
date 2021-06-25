@@ -1,0 +1,13 @@
+
+
+
+
+
+
+.footer {
+  flex-shrink: 0;
+  text-align: center;
+  background-color: tomato;
+  margin-bottom:30%;
+  color: white;
+}

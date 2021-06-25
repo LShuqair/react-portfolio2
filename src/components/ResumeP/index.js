@@ -1,5 +1,5 @@
 import React from "react";
-import LunaPdf from "../../images/LunaPdf.pdf";
+import LunaNew from "../../images/LunaNew.pdf";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./style.css";
 
@@ -11,7 +11,7 @@ function ResumeP() {
 
 
 <div class="embed-responsive embed-responsive-16by9" id="embed" >
-<iframe class="embed-responsive-item" src={LunaPdf}></iframe>
+<iframe class="embed-responsive-item" src={LunaNew}></iframe>
 </div>
 
 
